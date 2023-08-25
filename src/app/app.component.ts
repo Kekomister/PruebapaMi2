@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pruebaN2';
+
+  abrirHeader(){
+    if(document.getElementById("nav-header")!.style.top == "40px"){
+      document.getElementById("nav-header")!.style.position = "fixed";
+      document.getElementById("nav-header")!.style.top = "-1000px";
+    }else{
+      document.getElementById("nav-header")!.style.top = "40px";
+    }
+  }
 }

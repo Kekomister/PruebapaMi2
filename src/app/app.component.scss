@@ -1,0 +1,340 @@
+.header{
+    position: fixed;
+    width: 100%;
+    background-color: darkblue;
+}
+
+.header-hijo{
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-header{
+    position: fixed;
+    left: 0;
+    top: -1000px;
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+    gap: 1.5rem;
+    background-color:lightblue;
+    height: 100%;
+    width: 30vh;
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.bx-menu-alt-left{
+    position:fixed;
+    left: 0;
+    z-index: 10;
+}
+
+.logo{
+    height: 5vh;
+}
+
+.contenedor-principal{
+    padding-top: 40px;
+    background-color:darksalmon;
+    width: 100%;
+}
+
+.buttons{
+    background-color: darkblue;
+    margin-top: 5px;
+    padding: 10px;
+    color: white;
+}
+
+.sector-1{
+    width: 90%;
+    margin: 0 auto;
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+
+.contenedor-texto-flotante{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mini-texto-flotante{
+    font-size: x-small;
+}
+
+.titulo-flotante{
+    font-size: x-large;
+}
+
+.span-texto-flotante{
+    font-size: small;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.contenedor-img{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1{
+    width: 18vh;
+    height: 18vh;
+}
+
+.sector-2{
+    padding-top: 3vh;
+    width: 90%;
+    margin: 0 auto;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid darkgreen;
+}
+
+.sector-2-1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    margin: 0 auto 5vh;
+    gap: 1rem;
+    width: 100%;
+    height: 25vh;
+}
+
+.sector-2-1-cuadrado{
+    background-color:crimson;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.sector-2-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 25vh;
+}
+
+.sector-2-2-cuadrado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.sector-2-3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap : 1rem;
+    align-content: center;
+}
+
+.sector-2-3-cuadrado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 10vh;
+    height: 8vh;
+    text-align: center;
+    background-color:crimson;
+}
+
+.sector-3{
+    padding-top: 3vh;
+    width: 90%;
+    margin: 0 auto;
+    height: 90vh;
+    border: 1px solid purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contenedor-titulo3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor-imagenes{
+    border: 1px solid black;
+    height: 90%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 0.5rem;
+}
+
+.cuadrado{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img-cuadrado{
+    object-fit: contain;
+    height: 11vh;
+    padding-bottom: 5px;
+    background-color:crimson;
+}
+
+.fuera-cuadrado{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: medium;
+}
+
+.sector-4{
+    width: 90%;
+    margin: 0 auto;
+    height: 20vh;
+    border: 1px solid red;
+}
+
+.contenedor-4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid gold;
+    height: 15vh;
+    padding: 1rem;
+}
+
+.links{
+    height: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    padding-bottom: 5px;
+    a{
+        text-decoration: none;
+        color:black;
+    }
+}
+
+.footer{
+    background-color: darkblue;
+    height: 5vh;
+}
+
+.footer-hijo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes-sociales{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+// 320px minimo
+// PARA WIDTH 600PX PARA ABAJO
+@media only screen and (max-width: 600px) {
+.col-xs-1 {width: 8.33%;}
+.col-xs-2 {width: 16.66%;}
+.col-xs-3 {width: 25%;}
+.col-xs-4 {width: 33.33%;}
+.col-xs-5 {width: 41.66%;}
+.col-xs-6 {width: 50%;}
+.col-xs-7 {width: 58.33%;}
+.col-xs-8 {width: 66.66%;}
+.col-xs-9 {width: 75%;}
+.col-xs-10 {width: 83.33%;}
+.col-xs-11 {width: 91.66%;}
+.col-xs-12 {width: 100%;}
+}
+
+/* DE 600 HASTA 768 (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+.col-s-1 {width: 8.33%;}
+.col-s-2 {width: 16.66%;}
+.col-s-3 {width: 25%;}
+.col-s-4 {width: 33.33%;}
+.col-s-5 {width: 41.66%;}
+.col-s-6 {width: 50%;}
+.col-s-7 {width: 58.33%;}
+.col-s-8 {width: 66.66%;}
+.col-s-9 {width: 75%;}
+.col-s-10 {width: 83.33%;}
+.col-s-11 {width: 91.66%;}
+.col-s-12 {width: 100%;}
+
+.header-hijo{
+    width: 70%;
+    .bx-menu-alt-left{
+        top: -1000px;
+    }
+
+    .nav-header{
+        position: relative;
+        top: 0px;
+    }
+}
+}
+
+/* DE 768 HASTA 992 (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+.col-m-1 {width: 8.33%;}
+.col-m-2 {width: 16.66%;}
+.col-m-3 {width: 25%;}
+.col-m-4 {width: 33.33%;}
+.col-m-5 {width: 41.66%;}
+.col-m-6 {width: 50%;}
+.col-m-7 {width: 58.33%;}
+.col-m-8 {width: 66.66%;}
+.col-m-9 {width: 75%;}
+.col-m-10 {width: 83.33%;}
+.col-m-11 {width: 91.66%;}
+.col-m-12 {width: 100%;}
+}
+
+/* DE 992 HASTA 1200 (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+.col-l-1 {width: 8.33%;}
+.col-l-2 {width: 16.66%;}
+.col-l-3 {width: 25%;}
+.col-l-4 {width: 33.33%;}
+.col-l-5 {width: 41.66%;}
+.col-l-6 {width: 50%;}
+.col-l-7 {width: 58.33%;}
+.col-l-8 {width: 66.66%;}
+.col-l-9 {width: 75%;}
+.col-l-10 {width: 83.33%;}
+.col-l-11 {width: 91.66%;}
+.col-l-12 {width: 100%;}
+}
+
+/* DE 1200 PA ADELANTE (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+.col-xl-1 {width: 8.33%;}
+.col-xl-2 {width: 16.66%;}
+.col-xl-3 {width: 25%;}
+.col-xl-4 {width: 33.33%;}
+.col-xl-5 {width: 41.66%;}
+.col-xl-6 {width: 50%;}
+.col-xl-7 {width: 58.33%;}
+.col-xl-8 {width: 66.66%;}
+.col-xl-9 {width: 75%;}
+.col-xl-10 {width: 83.33%;}
+.col-xl-11 {width: 91.66%;}
+.col-xl-12 {width: 100%;}
+}
