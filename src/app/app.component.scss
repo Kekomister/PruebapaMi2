@@ -29,15 +29,15 @@
     background-color: rgb(20, 20, 182);
     height: 100%;
     width: 20vh;
+    z-index: 10;
 
     a {
+        padding: 10px;
         text-decoration: none;
         color: white;
         width: 100%;
         border-bottom: solid 1px rgba(241, 236, 236, 0.404);
     }
-
-    z-index: 10;
 }
 
 .bx-menu-alt-left {
@@ -70,7 +70,7 @@
     height: 30vh;
     display: flex;
     justify-content: space-evenly;
-    border: 1px solid black;
+    //border: 1px solid black;
 }
 
 .contenedor-texto-flotante {
@@ -115,6 +115,8 @@
     height: 50%;
     background-color: hsl(348, 83%, 47%, 0.9);
     z-index: 1;
+    border-radius: 3px;
+    border: 1px inset #dc143c;
 }
 
 .sector-2 {
@@ -125,8 +127,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    border: 1px solid darkgreen;
     z-index: 2;
+    //border: 1px solid darkgreen;
 }
 
 .sector-2-1 {
@@ -150,7 +152,7 @@
 
     a {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         text-decoration: none;
     }
 
@@ -204,11 +206,11 @@
     width: 90%;
     margin: 0 auto;
     height: 90vh;
-    border: 1px solid purple;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     z-index: 2;
+    //border: 1px solid purple;
 }
 
 .contenedor-titulo3 {
@@ -235,6 +237,8 @@
     object-fit: contain;
     height: 11vh;
     background-color: crimson;
+    border-radius: 5px;
+    border: 1px inset #dc143c;
 }
 
 .fuera-img-cuadrado {
@@ -242,13 +246,16 @@
     flex-direction: column;
     text-align: center;
     font-size: medium;
+    a{
+        text-decoration: none;
+    }
 }
 
 .sector-4 {
     width: 90%;
     margin: 0 auto;
     height: 20vh;
-    border: 1px solid gold;
+    //border: 1px solid gold;
 }
 
 .contenedor-4 {
@@ -259,6 +266,8 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: crimson;
+    border-radius: 5px;
+    border: 1px inset #dc143c;
 }
 
 .texto-titulo4 {
@@ -317,7 +326,6 @@
 }
 
 .who {
-    border: 1px solid brown;
     width: 30%;
     display: flex;
     flex-direction: column;
