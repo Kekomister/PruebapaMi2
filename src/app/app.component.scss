@@ -206,11 +206,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    z-index: 2;
 }
 
 .contenedor-titulo3{
     display: flex;
     justify-content: space-between;
+    z-index: 2;
 }
 
 .contenedor-imagenes{
@@ -317,7 +319,16 @@
     align-items: end;
 }
 
-@media only screen and (max-height: 620px){
+@media only screen and (max-height: 700px){
+    .background {
+        position: absolute;
+        top: 230px;
+        left: 0px;
+        width: 50%;
+        height: 50%;
+        background-color:hsl(348, 83%, 47%,0.9);
+        z-index: 1;
+    }
     .footer{
         height: 7vh;
     }
