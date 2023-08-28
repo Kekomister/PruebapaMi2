@@ -226,7 +226,7 @@
     padding-top: 3vh;
     width: 90%;
     margin: 0 auto;
-    height: 90vh;
+    height: 180vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -252,11 +252,12 @@
     flex-direction: column;
     justify-content: space-between;
     padding-bottom: 5px;
+    border: 1px solid black;
 }
 
 .img-cuadrado {
     object-fit: contain;
-    height: 11vh;
+    height: 25vh;
     background-color: crimson;
     border-radius: 5px;
     border: 1px inset #dc143c;
